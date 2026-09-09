@@ -1,0 +1,16 @@
+body  {
+    background-color: gray;
+}
+
+input, button, ul{
+    background-color: rgb(68, 161, 241);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+ul {
+    height: 80vh;
+    padding: 20px 0 0 40px;
+}
