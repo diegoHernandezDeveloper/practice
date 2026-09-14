@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(242, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    border: 3px solid rgb(72, 119, 119);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 2px solid rgb(116, 199, 186);
+    box-sizing: border-box;
+
+}
+
+th {
+    background-color: rgb(218, 252, 247);
+}
+td {
+    background-color: rgb(241, 255, 253);
+}
+
+.planets {
+    border: 3px solid rgb(0, 0, 0);
+
+}

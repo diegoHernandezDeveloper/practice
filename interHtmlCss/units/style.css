@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+main {
+    background-color: lightblue;
+    height: 400px;
+    
+    /* 1. Turn the container into a flexbox */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}    
+
+div {
+    background-color: aquamarine;
+    /* 2. Remove the margins; flexbox handles alignment now */
+    max-width: 100%; 
+}  
+
+video {
+    display: block;
+    margin: 10px auto;
+    /* 3. Use percentages instead of vw so it stays inside the body limit */
+    width: 80%; 
+    max-width: 100%;
+    height: auto; 
+}

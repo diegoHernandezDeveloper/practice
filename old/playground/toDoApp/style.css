@@ -1,0 +1,39 @@
+body  {
+    background-color: gray;
+}
+
+input, button, ul,h1{
+    background-color: rgb(68, 161, 241);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+ul {
+    height: 80vh; 
+   
+    padding: 20px 10px 0 40px;
+ 
+  
+}
+
+li {
+       display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.checked {
+    text-decoration: line-through;
+}
+
+input {
+    margin-right: 5px;
+}
+
