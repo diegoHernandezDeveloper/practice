@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(orbitronRoboto/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url(orbitronRoboto/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'pierceJamesonScript';
+    src: url(pierceJamesonScript/Pierce\ Jameson\ Script.otf);
+}
+
+
+
+.sans-serif > * {
+    font-family: sans-serif;
+}
+
+
+.roboto > *{
+    font-family: roboto, sans-serif;
+}
+
+.orbitron > * {
+    font-family: orbitron, sans-serif;
+}
+
+.pierceJamesonScript >*{
+    font-family: pierceJamesonScript, sans-serif;
+}

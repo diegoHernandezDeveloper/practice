@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+/* exercise*/
+
+@font-face {
+  font-family: varsity;
+  src: url(resources/fonts/varsity_regular.ttf);
+}
+
+
+h1 {
+  text-align: center;
+  
+
+}
+
+h1,h2,nav a {
+  font-family: varsity, sans-serif;
+  letter-spacing: 2px;
+
+}
+
+a {
+  color: #aa6666; 
+}
+
+
+
+nav a {
+  text-decoration: none;
+  transition: transform 0.1s ease-in-out;
+  
+}
+
+nav li:hover {
+  color: #854e4e;
+  border: 2px solid #bd9797;
+  transform: scale(1.1);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 2px solid #dbb0b0;
+  padding: 10px 25px;
+  margin: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  text-indent: 2rem;
+  line-height: 25px;
+}
+
+img {
+  width: 12px;
+}
+
+
+
